@@ -30,13 +30,14 @@
             android:text="@string/settings"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="22sp" />
+            android:textSize="@dimen/text_header_size" />
     </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="40dp"
+        android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -47,7 +48,7 @@
             android:text="@string/dark_theme"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="@dimen/settings_textsize" />
 
         <androidx.appcompat.widget.SwitchCompat
             android:layout_width="wrap_content"
@@ -60,7 +61,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="60dp"
+        android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -71,7 +73,7 @@
             android:text="@string/share"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="@dimen/settings_textsize" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -85,7 +87,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="60dp"
+        android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -96,7 +99,7 @@
             android:text="@string/support"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="@dimen/settings_textsize" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -111,7 +114,8 @@
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="60dp"
+        android:paddingHorizontal="@dimen/settings_padding_horizontal">
 
         <TextView
             android:layout_width="wrap_content"
@@ -122,7 +126,7 @@
             android:text="@string/agreement"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:textSize="16sp" />
+            android:textSize="@dimen/settings_textsize" />
 
         <ImageView
             android:layout_width="wrap_content"
